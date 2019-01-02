@@ -1,0 +1,85 @@
+TAGS- STRINGS EASY Rating= 1000<
+
+1. Anton and Polyhedrons
+http://codeforces.com/problemset/problem/785/A
+
+Anton's favourite geometric figures are regular polyhedrons. Note that there are five kinds of regular polyhedrons:
+
+Tetrahedron. Tetrahedron has 4 triangular faces.
+Cube. Cube has 6 square faces.
+Octahedron. Octahedron has 8 triangular faces.
+Dodecahedron. Dodecahedron has 12 pentagonal faces.
+Icosahedron. Icosahedron has 20 triangular faces.
+All five kinds of polyhedrons are shown on the picture below:
+
+
+Anton has a collection of n polyhedrons. One day he decided to know, how many faces his polyhedrons have in total. Help Anton and find this number!
+
+Input
+The first line of the input contains a single integer n (1 ≤ n ≤ 200 000) — the number of polyhedrons in Anton's collection.
+
+Each of the following n lines of the input contains a string si — the name of the i-th polyhedron in Anton's collection. The string can look like this:
+
+"Tetrahedron" (without quotes), if the i-th polyhedron in Anton's collection is a tetrahedron.
+"Cube" (without quotes), if the i-th polyhedron in Anton's collection is a cube.
+"Octahedron" (without quotes), if the i-th polyhedron in Anton's collection is an octahedron.
+"Dodecahedron" (without quotes), if the i-th polyhedron in Anton's collection is a dodecahedron.
+"Icosahedron" (without quotes), if the i-th polyhedron in Anton's collection is an icosahedron.
+Output
+Output one number — the total number of faces in all the polyhedrons in Anton's collection.
+
+*************************************************************************************************************************
+
+2.Anton and Danik
+http://codeforces.com/problemset/problem/734/A
+Anton likes to play chess, and so does his friend Danik.
+
+Once they have played n games in a row. For each game it's known who was the winner — Anton or Danik. None of the games ended with a tie.
+
+Now Anton wonders, who won more games, he or Danik? Help him determine this.
+
+Input
+The first line of the input contains a single integer n (1 ≤ n ≤ 100 000) — the number of games played.
+The second line contains a string s, consisting of n uppercase English letters 'A' and 'D' — the outcome of each of the games. The i-th character of the string is equal to 'A' if the Anton won the i-th game and 'D' if Danik won the i-th game.
+
+Output
+If Anton won more games than Danik, print "Anton" (without quotes) in the only line of the output.
+If Danik won more games than Anton, print "Danik" (without quotes) in the only line of the output.
+If Anton and Danik won the same number of games, print "Friendship" (without quotes).
+
+*************************************************************************************************************************
+
+3. File Name
+http://codeforces.com/problemset/problem/978/B
+You can not just take the file and send it. When Polycarp trying to send a file in the social network "Codehorses", he encountered an unexpected problem. If the name of the file contains three or more "x" (lowercase Latin letters "x") in a row, the system considers that the file content does not correspond to the social network topic. In this case, the file is not sent and an error message is displayed.
+
+Determine the minimum number of characters to remove from the file name so after that the name does not contain "xxx" as a substring. Print 0 if the file name does not initially contain a forbidden substring "xxx".
+
+You can delete characters in arbitrary positions (not necessarily consecutive). If you delete a character, then the length of a string is reduced by 1. For example, if you delete the character in the position 2 from the string "exxxii", then the resulting string is "exxii".
+
+Input
+The first line contains integer n (3≤n≤100) — the length of the file name.
+The second line contains a string of length n consisting of lowercase Latin letters only — the file name.
+
+Output
+Print the minimum number of characters to remove from the file name so after that the name does not contain "xxx" as a substring. If initially the file name dost not contain a forbidden substring "xxx", print 0.
+
+*************************************************************************************************************************
+
+4.Tom Riddle's Diary
+http://codeforces.com/problemset/problem/855/A
+Harry Potter is on a mission to destroy You-Know-Who's Horcruxes. The first Horcrux that he encountered in the Chamber of Secrets is Tom Riddle's diary. The diary was with Ginny and it forced her to open the Chamber of Secrets. Harry wants to know the different people who had ever possessed the diary to make sure they are not under its influence.
+
+He has names of n people who possessed the diary in order. You need to tell, for each person, if he/she possessed the diary at some point before or not.
+
+Formally, for a name si in the i-th line, output "YES" (without quotes) if there exists an index j such that si = sj and j < i, otherwise, output "NO" (without quotes).
+
+Input
+First line of input contains an integer n (1 ≤ n ≤ 100) — the number of names in the list.
+Next n lines each contain a string si, consisting of lowercase English letters. The length of each string is between 1 and 100.
+
+Output
+Output n lines each containing either "YES" or "NO" (without quotes), depending on whether this string was already present in the stream or not.
+You can print each letter in any case (upper or lower).
+
+*************************************************************************************************************************
