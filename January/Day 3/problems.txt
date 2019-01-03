@@ -1,1 +1,72 @@
 TAGS- GREEDY EASY Rating= 1000<
+
+1.Find Divisible
+http://codeforces.com/problemset/problem/1096/A
+
+You are given a range of positive integers from l to r.
+Find such a pair of integers (x,y) that l≤x,y≤r, x≠y and x divides y.
+If there are multiple answers, print any of them.
+You are also asked to answer T independent queries.
+
+Input
+The first line contains a single integer T (1≤T≤1000) — the number of queries.
+Each of the next T lines contains two integers l and r (1≤l≤r≤998244353) — inclusive borders of the range.
+It is guaranteed that testset only includes queries, which have at least one suitable pair.
+
+Output
+Print T lines, each line should contain the answer — two integers x and y such that l≤x,y≤r, x≠y and x divides y. The answer in the i-th line should correspond to the i-th query from the input.
+
+If there are multiple answers, print any of them.
+
+*************************************************************************************************************************
+
+2.USB Flash Drives
+http://codeforces.com/problemset/problem/609/A
+
+Sean is trying to save a large file to a USB flash drive. He has n USB flash drives with capacities equal to a1, a2, ..., an megabytes. The file size is equal to m megabytes.
+
+Find the minimum number of USB flash drives needed to write Sean's file, if he can split the file between drives.
+
+Input
+The first line contains positive integer n (1 ≤ n ≤ 100) — the number of USB flash drives.
+
+The second line contains positive integer m (1 ≤ m ≤ 105) — the size of Sean's file.
+
+Each of the next n lines contains positive integer ai (1 ≤ ai ≤ 1000) — the sizes of USB flash drives in megabytes.
+
+It is guaranteed that the answer exists, i. e. the sum of all ai is not less than m.
+
+Output
+Print the minimum number of USB flash drives to write Sean's file, if he can split the file between drives.
+
+*************************************************************************************************************************
+
+3. Coins
+http://codeforces.com/problemset/problem/1061/A
+
+You have unlimited number of coins with values 1,2,…,n. You want to select some set of coins having the total value of S.
+
+It is allowed to have multiple coins with the same value in the set. What is the minimum number of coins required to get sum S?
+
+Input
+The only line of the input contains two integers n and S (1≤n≤100000, 1≤S≤109)
+
+Output
+Print exactly one integer — the minimum number of coins required to obtain sum S.
+
+*************************************************************************************************************************
+
+4. Declined Finalists
+http://codeforces.com/problemset/problem/859/A
+
+This year, as in previous years, MemSQL is inviting the top 25 competitors from the Start[c]up qualification round to compete onsite for the final round. Not everyone who is eligible to compete onsite can afford to travel to the office, though. Initially the top 25 contestants are invited to come onsite. Each eligible contestant must either accept or decline the invitation. Whenever a contestant declines, the highest ranked contestant not yet invited is invited to take the place of the one that declined. This continues until 25 contestants have accepted invitations.
+
+After the qualifying round completes, you know K of the onsite finalists, as well as their qualifying ranks (which start at 1, there are no ties). Determine the minimum possible number of contestants that declined the invitation to compete onsite in the final round.
+
+Input
+The first line of input contains K (1 ≤ K ≤ 25), the number of onsite finalists you know. The second line of input contains r1, r2, ..., rK (1 ≤ ri ≤ 106), the qualifying ranks of the finalists you know. All these ranks are distinct.
+
+Output
+Print the minimum possible number of contestants that declined the invitation to compete onsite.
+
+*************************************************************************************************************************
