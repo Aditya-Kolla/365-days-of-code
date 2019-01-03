@@ -1,0 +1,70 @@
+TAGS- GREEDY EASY Rating= 1000<
+
+1. Cards
+http://codeforces.com/problemset/problem/701/A
+
+There are n cards (n is even) in the deck. Each card has a positive integer written on it. n / 2 people will play new card game. At the beginning of the game each player gets two cards, each card is given to exactly one player.
+
+Find the way to distribute cards such that the sum of values written of the cards will be equal for each player. It is guaranteed that it is always possible.
+
+Input
+The first line of the input contains integer n (2 ≤ n ≤ 100) — the number of cards in the deck. It is guaranteed that n is even.
+The second line contains the sequence of n positive integers a1, a2, ..., an (1 ≤ ai ≤ 100), where ai is equal to the number written on the i-th card.
+
+Output
+Print n / 2 pairs of integers, the i-th pair denote the cards that should be given to the i-th player. Each card should be given to exactly one player. Cards are numbered in the order they appear in the input.
+It is guaranteed that solution exists. If there are several correct answers, you are allowed to print any of them.
+
+*************************************************************************************************************************
+
+2. Sereja and Dima
+http://codeforces.com/problemset/problem/381/A
+
+Sereja and Dima play a game. The rules of the game are very simple. The players have n cards in a row. Each card contains a number, all numbers on the cards are distinct. The players take turns, Sereja moves first. During his turn a player can take one card: either the leftmost card in a row, or the rightmost one. The game ends when there is no more cards. The player who has the maximum sum of numbers on his cards by the end of the game, wins.
+
+Sereja and Dima are being greedy. Each of them chooses the card with the larger number during his move.
+
+Inna is a friend of Sereja and Dima. She knows which strategy the guys are using, so she wants to determine the final score, given the initial state of the game. Help her.
+
+Input
+The first line contains integer n (1 ≤ n ≤ 1000) — the number of cards on the table. The second line contains space-separated numbers on the cards from left to right. The numbers on the cards are distinct integers from 1 to 1000.
+
+Output
+On a single line, print two integers. The first number is the number of Sereja's points at the end of the game, the second number is the number of Dima's points at the end of the game.
+
+*************************************************************************************************************************
+
+3. Heist
+http://codeforces.com/problemset/problem/1041/A
+
+There was an electronic store heist last night.
+All keyboards which were in the store yesterday were numbered in ascending order from some integer number x. For example, if x=4 and there were 3 keyboards in the store, then the devices had indices 4, 5 and 6, and if x=10 and there were 7 of them then the keyboards had indices 10, 11, 12, 13, 14, 15 and 16.
+
+After the heist, only n keyboards remain, and they have indices a1,a2,…,an. Calculate the minimum possible number of keyboards that have been stolen. The staff remember neither x nor the number of keyboards in the store before the heist.
+
+Input
+The first line contains single integer n (1≤n≤1000) — the number of keyboards in the store that remained after the heist.
+The second line contains n distinct integers a1,a2,…,an (1≤ai≤109) — the indices of the remaining keyboards. The integers ai are given in arbitrary order and are pairwise distinct.
+
+Output
+Print the minimum possible number of keyboards that have been stolen if the staff remember neither x nor the number of keyboards in the store before the heist.
+
+*************************************************************************************************************************
+
+4. Partition
+http://codeforces.com/problemset/problem/946/A
+
+You are given a sequence a consisting of n integers. You may partition this sequence into two sequences b and c in such a way that every element belongs exactly to one of these sequences.
+
+Let B be the sum of elements belonging to b, and C be the sum of elements belonging to c (if some of these sequences is empty, then its sum is 0). What is the maximum possible value of B - C?
+
+Input
+The first line contains one integer n (1 ≤ n ≤ 100) — the number of elements in a.
+
+The second line contains n integers a1, a2, ..., an ( - 100 ≤ ai ≤ 100) — the elements of sequence a.
+
+Output
+Print the maximum possible value of B - C, where B is the sum of elements of sequence b, and C is the sum of elements of sequence c.
+
+*************************************************************************************************************************
+
