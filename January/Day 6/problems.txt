@@ -1,0 +1,60 @@
+TAGS -  RATING <= 900
+
+1.Uniform String
+http://codeforces.com/problemset/problem/1092/A
+
+You are given two integers n and k
+
+.
+
+Your task is to construct such a string s
+of length n that for each i from 1 to k there is at least one i
+
+-th letter of the Latin alphabet in this string (the first letter is 'a', the second is 'b' and so on) and there are no other letters except these. You have to maximize the minimal frequency of some letter (the frequency of a letter is the number of occurrences of this letter in a string). If there are several possible answers, you can print any.
+
+You have to answer t
+
+independent queries.
+Input
+
+The first line of the input contains one integer t
+(1≤t≤100
+
+) — the number of queries.
+
+The next t
+lines are contain queries, one per line. The i-th line contains two integers ni and ki (1≤ni≤100,1≤ki≤min(ni,26)) — the length of the string in the i-th query and the number of characters in the i
+
+-th query.
+Output
+
+Print t
+lines. In the i-th line print the answer to the i-th query: any string si satisfying the conditions in the problem statement with constraints from the i-th query.
+******************************************************************************************************************************************************************
+
+2.Death Note
+http://codeforces.com/problemset/problem/1016/A
+
+You received a notebook which is called Death Note. This notebook has infinite number of pages. A rule is written on the last page (huh) of this notebook. It says: "You have to write names in this notebook during n consecutive days. During the i-th day you have to write exactly ai
+
+names.". You got scared (of course you got scared, who wouldn't get scared if he just receive a notebook which is named Death Note with a some strange rule written in it?).
+
+Of course, you decided to follow this rule. When you calmed down, you came up with a strategy how you will write names in the notebook. You have calculated that each page of the notebook can contain exactly m
+
+names. You will start writing names from the first page. You will write names on the current page as long as the limit on the number of names on this page is not exceeded. When the current page is over, you turn the page. Note that you always turn the page when it ends, it doesn't matter if it is the last day or not. If after some day the current page still can hold at least one name, during the next day you will continue writing the names from the current page.
+
+Now you are interested in the following question: how many times will you turn the page during each day? You are interested in the number of pages you will turn each day from 1
+to n
+
+.
+Input
+
+The first line of the input contains two integers n, m (1≤n≤2⋅105, 1≤m≤109) — the number of days you will write names in the notebook and the number of names which can be written on each page of the notebook.
+
+The second line contains n
+integers a1,a2,…,an (1≤ai≤109), where ai means the number of names you will write in the notebook during the i-th day.
+
+Output
+
+Print exactly n integers t1,t2,…,tn, where ti is the number of times you will turn the page during the i-th day.
+***************************************************************************************************************
