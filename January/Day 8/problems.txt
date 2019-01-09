@@ -1,0 +1,61 @@
+TAGS - RATING <= 1200
+
+1.Array Stabilization
+http://codeforces.com/problemset/problem/1095/B
+You are given an array a consisting of n
+
+integer numbers.
+
+Let instability of the array be the following value: maxi=1nai−mini=1nai
+
+.
+
+You have to remove exactly one element from this array to minimize instability of the resulting (n−1)
+
+-elements array. Your task is to calculate the minimum possible instability.
+Input
+
+The first line of the input contains one integer n
+(2≤n≤105) — the number of elements in the array a
+
+.
+
+The second line of the input contains n
+integers a1,a2,…,an (1≤ai≤105) — elements of the array a
+
+.
+Output
+
+Print one integer — the minimum possible instability of the array if you have to remove exactly one element from the array 
+**************************************************************************************************************************
+
+2.Letters Rearranging
+http://codeforces.com/problemset/problem/1093/B
+
+You are given a string s
+
+consisting only of lowercase Latin letters.
+
+You can rearrange all letters of this string as you wish. Your task is to obtain a good string by rearranging the letters of the given string or report that it is impossible to do it.
+
+Let's call a string good if it is not a palindrome. Palindrome is a string which is read from left to right the same as from right to left. For example, strings "abacaba", "aa" and "z" are palindromes and strings "bba", "xd" are not.
+
+You have to answer t
+
+independent queries.
+Input
+
+The first line of the input contains one integer t
+(1≤t≤100
+
+) — number of queries.
+
+Each of the next t
+lines contains one string. The i-th line contains a string si consisting only of lowercase Latin letter. It is guaranteed that the length of si is from 1 to 1000
+
+(inclusive).
+Output
+
+Print t
+lines. In the i-th line print the answer to the i-th query: -1 if it is impossible to obtain a good string by rearranging the letters of si and any good string which can be obtained from the given one (by rearranging the letters) otherwise.
+************************************************************************************************************************************************************************************************************************************************
