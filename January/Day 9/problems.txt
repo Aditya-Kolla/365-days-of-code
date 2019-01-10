@@ -1,0 +1,43 @@
+TAGS - GREEDY RATING<1000
+
+1. Supermarket
+http://codeforces.com/problemset/problem/919/A
+
+We often go to supermarkets to buy some fruits or vegetables, and on the tag there prints the price for a kilo. But in some supermarkets, when asked how much the items are, the clerk will say that a yuan for b kilos (You don't need to care about what "yuan" is), the same as a/b yuan for a kilo.
+
+Now imagine you'd like to buy m kilos of apples. You've asked n supermarkets and got the prices. Find the minimum cost for those apples.
+
+You can assume that there are enough apples in all supermarkets.
+
+Input
+The first line contains two positive integers n and m (1≤n≤5000, 1≤m≤100), denoting that there are n supermarkets and you want to buy m kilos of apples.
+
+The following n lines describe the information of the supermarkets. Each line contains two positive integers a,b (1≤a,b≤100), denoting that in this supermarket, you are supposed to pay a yuan for b kilos of apples.
+
+Output
+The only line, denoting the minimum cost for m kilos of apples. Please make sure that the absolute or relative error between your answer and the correct answer won't exceed 10−6.
+
+Formally, let your answer be x, and the jury's answer be y. Your answer is considered correct if |x−y|max(1,|y|)≤10−6.
+
+****************************************************************************************
+
+2. Hungry Student Problem
+http://codeforces.com/problemset/problem/903/A
+
+Ivan's classes at the university have just finished, and now he wants to go to the local CFK cafe and eat some fried chicken.
+
+CFK sells chicken chunks in small and large portions. A small portion contains 3 chunks; a large one — 7 chunks. Ivan wants to eat exactly x chunks. Now he wonders whether he can buy exactly this amount of chicken.
+
+Formally, Ivan wants to know if he can choose two non-negative integers a and b in such a way that a small portions and b large ones contain exactly x chunks.
+
+Help Ivan to answer this question for several values of x!
+
+Input
+The first line contains one integer n (1 ≤ n ≤ 100) — the number of testcases.
+
+The i-th of the following n lines contains one integer xi (1 ≤ xi ≤ 100) — the number of chicken chunks Ivan wants to eat.
+
+Output
+Print n lines, in i-th line output YES if Ivan can buy exactly xi chunks. Otherwise, print NO.
+
+****************************************************************************************
