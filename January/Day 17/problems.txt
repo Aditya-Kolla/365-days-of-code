@@ -1,0 +1,44 @@
+TAGS - RATING <= 1500
+
+1.Kefa and Park
+http://codeforces.com/problemset/problem/580/C
+
+Kefa decided to celebrate his first big salary by going to the restaurant.
+
+He lives by an unusual park. The park is a rooted tree consisting of n vertices with the root at vertex 1. Vertex 1 also contains Kefa's house. Unfortunaely for our hero, the park also contains cats. Kefa has already found out what are the vertices with cats in them.
+
+The leaf vertices of the park contain restaurants. Kefa wants to choose a restaurant where he will go, but unfortunately he is very afraid of cats, so there is no way he will go to the restaurant if the path from the restaurant to his house contains more than m consecutive vertices with cats.
+
+Your task is to help Kefa count the number of restaurants where he can go.
+Input
+
+The first line contains two integers, n and m (2 ≤ n ≤ 105, 1 ≤ m ≤ n) — the number of vertices of the tree and the maximum number of consecutive vertices with cats that is still ok for Kefa.
+
+The second line contains n integers a1, a2, ..., an, where each ai either equals to 0 (then vertex i has no cat), or equals to 1 (then vertex i has a cat).
+
+Next n - 1 lines contains the edges of the tree in the format "xi yi" (without the quotes) (1 ≤ xi, yi ≤ n, xi ≠ yi), where xi and yi are the vertices of the tree, connected by an edge.
+
+It is guaranteed that the given set of edges specifies a tree.
+Output
+
+A single integer — the number of distinct leaves of a tree the path to which from Kefa's home contains at most m consecutive vertices with cats.
+************************************************************************************************************************************************
+
+2.Divisibility by Eight
+http://codeforces.com/problemset/problem/550/C
+
+You are given a non-negative integer n, its decimal representation consists of at most 100 digits and doesn't contain leading zeroes.
+
+Your task is to determine if it is possible in this case to remove some of the digits (possibly not remove any digit at all) so that the result contains at least one digit, forms a non-negative integer, doesn't have leading zeroes and is divisible by 8. After the removing, it is forbidden to rearrange the digits.
+
+If a solution exists, you should print it.
+Input
+
+The single line of the input contains a non-negative integer n. The representation of number n doesn't contain any leading zeroes and its length doesn't exceed 100 digits.
+Output
+
+Print "NO" (without quotes), if there is no such way to remove some digits from number n.
+
+Otherwise, print "YES" in the first line and the resulting number after removing digits from number n in the second line. The printed number must be divisible by 8.
+
+If there are multiple possible answers, you may print any of them.
