@@ -1,0 +1,10 @@
+TAGS - HEAPS IMPLEMENTATION
+
+1.Kth Minimum Element
+In a given integer array, find the k-th minimum element.
+Use min heap.
+*************
+
+2.Kth Maximum Element
+In a given integer array, find the k-th maximum element.
+Use max heap.
