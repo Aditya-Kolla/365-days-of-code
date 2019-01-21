@@ -1,0 +1,36 @@
+TAGS - RATING <= 1500
+
+1.Ayoub and Lost Array
+http://codeforces.com/problemset/problem/1105/C
+
+Ayoub had an array a of integers of size n
+
+and this array had two interesting properties:
+
+    All the integers in the array were between l
+
+and r
+(inclusive).
+The sum of all the elements was divisible by 3
+
+    . 
+
+Unfortunately, Ayoub has lost his array, but he remembers the size of the array n
+and the numbers l and r
+
+, so he asked you to find the number of ways to restore the array.
+
+Since the answer could be very large, print it modulo 109+7
+(i.e. the remainder when dividing by 109+7). In case there are no satisfying arrays (Ayoub has a wrong memory), print 0
+
+.
+Input
+
+The first and only line contains three integers n
+, l and r (1≤n≤2⋅105,1≤l≤r≤109
+
+) — the size of the lost array and the range of numbers in the array.
+Output
+
+Print the remainder when dividing by 109+7
+the number of ways to restore the array.
