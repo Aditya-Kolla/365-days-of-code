@@ -1,0 +1,42 @@
+TAGS - RATING <= 1600
+
+1.Beautiful Graph
+http://codeforces.com/problemset/problem/1093/D
+
+You are given an undirected unweighted graph consisting of n vertices and m
+
+edges.
+
+You have to write a number on each vertex of the graph. Each number should be 1
+, 2 or 3
+
+. The graph becomes beautiful if for each edge the sum of numbers on vertices connected by this edge is odd.
+
+Calculate the number of possible ways to write numbers 1
+, 2 and 3 on vertices so the graph becomes beautiful. Since this number may be large, print it modulo 998244353
+
+.
+
+Note that you have to write exactly one number on each vertex.
+
+The graph does not have any self-loops or multiple edges.
+Input
+
+The first line contains one integer t
+(1≤t≤3⋅105
+
+) — the number of tests in the input.
+
+The first line of each test contains two integers n
+and m (1≤n≤3⋅105,0≤m≤3⋅105) — the number of vertices and the number of edges, respectively. Next m lines describe edges: i-th line contains two integers ui, vi (1≤ui,vi≤n;ui≠vi) — indices of vertices connected by i
+
+-th edge.
+
+It is guaranteed that ∑i=1tn≤3⋅105
+and ∑i=1tm≤3⋅105
+
+.
+Output
+
+For each test print one line, containing one integer — the number of possible ways to write numbers 1
+, 2, 3 on the vertices of given graph so it becomes beautiful. Since answers may be large, print them modulo 998244353.
