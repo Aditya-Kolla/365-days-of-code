@@ -1,0 +1,32 @@
+TAGS - RATING <= 1600
+
+1.Polygon for the Angle
+http://codeforces.com/problemset/problem/1096/C
+
+You are given an angle ang
+
+.
+
+The Jury asks You to find such regular n
+-gon (regular polygon with n vertices) that it has three vertices a, b and c (they can be non-consecutive) with ∠abc=ang or report that there is no such n
+
+-gon.
+
+If there are several answers, print the minimal one. It is guarantied that if answer exists then it doesn't exceed 998244353
+
+.
+Input
+
+The first line contains single integer T
+(1≤T≤180
+
+) — the number of queries.
+
+Each of the next T
+lines contains one integer ang (1≤ang<180
+
+) — the angle measured in degrees.
+Output
+
+For each query print single integer n
+(3≤n≤998244353) — minimal possible number of vertices in the regular n-gon or −1 if there is no such n.
