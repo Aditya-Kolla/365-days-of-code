@@ -1,0 +1,35 @@
+TAGS - RATING <= 1600
+
+1.Division and Union
+http://codeforces.com/problemset/problem/1101/C
+
+There are n segments [li,ri] for 1≤i≤n
+
+. You should divide all segments into two non-empty groups in such way that there is no pair of segments from different groups which have at least one common point, or say that it's impossible to do it. Each segment should belong to exactly one group.
+
+To optimize testing process you will be given multitest.
+Input
+
+The first line contains one integer T
+(1≤T≤50000
+
+) — the number of queries. Each query contains description of the set of segments. Queries are independent.
+
+First line of each query contains single integer n
+(2≤n≤105) — number of segments. It is guaranteed that ∑n over all queries does not exceed 105
+
+.
+
+The next n
+lines contains two integers li, ri per line (1≤li≤ri≤2⋅105) — the i
+
+-th segment.
+Output
+
+For each query print n
+integers t1,t2,…,tn (ti∈{1,2}) — for each segment (in the same order as in the input) ti equals 1 if the i-th segment will belongs to the first group and 2
+
+otherwise.
+
+If there are multiple answers, you can print any of them. If there is no answer, print −1
+.
