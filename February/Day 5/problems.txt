@@ -1,0 +1,8 @@
+1. Before an Exam
+http://codeforces.com/problemset/problem/4/B
+Time Limit: 0.5 second
+Memory Limit: 64 megabytes
+Input: standard input
+Output: standard output
+Rating: 1500
+
