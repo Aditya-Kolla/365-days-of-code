@@ -1,0 +1,8 @@
+1. Minimize the error
+http://codeforces.com/problemset/problem/960/B
+Time Limit: 1 second
+Memory Limit: 256 megabytes
+Input: standard input
+Output: standard output
+Rating: 1500
+
