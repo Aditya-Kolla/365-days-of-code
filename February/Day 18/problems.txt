@@ -1,0 +1,8 @@
+1. Nested Segments
+http://codeforces.com/problemset/problem/976/C
+Time Limit: 2 seconds
+Memory Limit: 256 megabytes
+Input: standard input
+Output: standard output
+Rating: 1500
+
