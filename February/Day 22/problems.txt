@@ -1,0 +1,8 @@
+1. Om Nom and Dark Park
+http://codeforces.com/problemset/problem/526/B
+Time Limit: 1 second
+Memory Limit: 256 megabytes
+Input: standard input
+Output: standard output
+Rating: 1500
+
