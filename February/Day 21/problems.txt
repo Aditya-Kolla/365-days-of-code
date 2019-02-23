@@ -1,0 +1,8 @@
+1. The Child and Set
+http://codeforces.com/problemset/problem/437/B
+Time Limit: 1 second
+Memory Limit: 256 megabytes
+Input: standard input
+Output: standard output
+Rating: 1500
+
