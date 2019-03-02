@@ -1,0 +1,8 @@
+1. Plasticine zebra
+http://codeforces.com/problemset/problem/1025/C
+Time Limit: 1 second
+Memory Limit: 256 megabytes
+Input: standard input
+Output: standard output
+Rating: 1600
+
