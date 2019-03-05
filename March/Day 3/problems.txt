@@ -1,0 +1,8 @@
+1. Code For 1
+http://codeforces.com/problemset/problem/768/B
+Time Limit: 2 seconds
+Memory Limit: 256 megabytes
+Input: standard input
+Output: standard output
+Rating: 1600
+
