@@ -1,0 +1,8 @@
+1. Average Superhero Gang Power 
+http://codeforces.com/problemset/problem/1111/B
+Time Limit: 1 second
+Memory Limit: 256 megabytes
+Input: standard input
+Output: standard output
+Rating: 1600
+
